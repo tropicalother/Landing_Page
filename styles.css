@@ -4,7 +4,7 @@
 
   .bigblue  {
     background: #1F2937;
-    height: 500px;
+    height: 350px;
     width: 900px;
     flex: 1;
     justify-content: space-between;
@@ -14,14 +14,28 @@
 
   .bigwhite  {
     background: white;
-    height: 500px;
-    width: 900px;
+    height: 350px;
+    width: 600px;
     flex: 1;
-    padding: 30px 100px 100px 30px;
+    padding-left:270px;
+    padding-right:270px;
+    align-items: center;
+    display: flex;
+  }
+
+  .biggray  {
+    background: gray;
+    height: 350px;
+    width: 1140px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 
   .flex-column  {
     flex-direction: column;
+    flex: 1;
   }
 
   .flex-container .bigtitle {
@@ -44,10 +58,15 @@
   }
 
   .awesome  {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
   }
 
   .smallsome  {
     color: white;
+  }
+
+  .squaretext {
+    width: 150px;
+    font-size: 11px;
   }
